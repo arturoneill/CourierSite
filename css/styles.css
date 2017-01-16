@@ -251,7 +251,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
    
 /*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
-    
+ /*  
     .circle:nth-child(1) {
 	    background-color:#d3d3d3;
         position: absolute;
@@ -288,6 +288,8 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		opacity:1;
     }
 }
+	
+	*/
 
 
 /*-----------------------SMALL SCREEN SIZES------------------------*/

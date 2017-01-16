@@ -194,6 +194,47 @@ div>a:hover, div>a:focus, div>a:active {
 	text-decoration:none;
 }
 
+/*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
+	 .circle:nth-child(1) {
+	    background-color:#d3d3d3;
+        position: absolute;
+        top: -35px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(2) {
+	    background-color:#ff7034;
+        position: absolute;
+        top: 90px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(3) {
+	    background-color:red;
+        position: absolute;
+       top: 215px;
+       left: 75px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+
+
+
+
+
    
 
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
@@ -346,6 +387,6 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		color:black;
 		opacity:1;
     }
-}
+	}
 
 

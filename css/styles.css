@@ -233,6 +233,13 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		opacity:0.75;
     
 }
+	
+	   li:hover:nth-child(4), li:focus:nth-child(4), li:active:nth-child(4) {
+        background-color:#3BB08F;
+        color: white;
+		opacity:0.75;
+    
+}
 
 .panel-footer {
     position: absolute;
@@ -302,7 +309,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
-	    background-color:fuchsia;
+	    background-color:#d3d3d3;
         position: absolute;
         top: -35px;
         left: 75px;
@@ -314,7 +321,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     }
 	
     .circle:nth-child(2) {
-	    background-color:DodgerBlue;
+	    background-color:#ff7034;
         position: absolute;
         top: 90px;
         left: 75px;

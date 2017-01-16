@@ -68,7 +68,7 @@ footer {
 
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{
-    background-color: white;
+    background-color: #dcdcdc;
     border: 0px;
     
 }
@@ -100,7 +100,7 @@ footer {
 }
 
 li:hover, li:focus, li:active {
-    background-color: DodgerBlue;
+    background-color: 3BB08F;
 	
 
 }
@@ -216,19 +216,19 @@ div>a:hover, div>a:focus, div>a:active {
 	}
 	
 li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
-        background-color:DodgerBlue;
+        background-color:#3BB08F;
         color: white;
 	   opacity:0.75;
     
 }
    li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
-        background-color:fuchsia;
+        background-color:#3BB08F;
         color: white;
 	   opacity:0.75;
     
 }
         li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
-        background-color:red;
+        background-color:#3BB08F;
         color: white;
 		opacity:0.75;
     
@@ -245,7 +245,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 /*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
     
     .circle:nth-child(1) {
-	    background-color:fuchsia;
+	    background-color:#d3d3d3;
         position: absolute;
         bottom: 20px;
         left: 20px;
@@ -257,7 +257,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
     }
 	
     .circle:nth-child(2) {
-	    background-color:DodgerBlue;
+	    background-color:#ff7034;
         position: absolute;
         top: -70px;
         left: 75px;

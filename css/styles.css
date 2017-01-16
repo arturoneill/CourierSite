@@ -116,7 +116,7 @@ li:hover, li:focus, li:active {
 /*----NAVBAR TOGGLE BUTTON------------------------------*/
 
 button.navbar-toggle {
-    background-color:white;
+    background-color:#dcdcdc;
     border:0px;
     
 }
@@ -200,7 +200,7 @@ div>a:hover, div>a:focus, div>a:active {
 @media screen and (min-width: 767px){
   
  #collapsable-nav {
-  background-color:white;
+  background-color:#dcdcdc;
   
         }
    

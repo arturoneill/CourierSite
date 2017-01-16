@@ -27,6 +27,13 @@ section {
     font-size:32px;
     color:black;
 }
+
+#background {
+	background-image: url("images/gainesvillemapbw.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
    
 
 

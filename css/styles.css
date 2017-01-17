@@ -450,7 +450,7 @@ section.circle-nav {
 	    background-color:#3BB08F;
         position: absolute;
         top: 0px;
-        left: 75px;
+        left: 25px;
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	    background-image: url("../images/phoneanswerbw.png");
@@ -467,7 +467,7 @@ section.circle-nav {
 	    background-color:#ff7034;
         position: absolute;
         top: 125px;
-        left: 75px;
+        left: 25px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
 	     background-image: url("../images/gainesvillemapbw.png");
@@ -483,7 +483,7 @@ section.circle-nav {
 	    background-color:red;
         position: absolute;
        top: 250px;
-       left: 75px;
+       left: 25px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;

@@ -17,8 +17,7 @@ body{
 section {
     background-color: white;
     margin-top: 50px;
-	margin-left:15px;
-	margin-right:15px;
+	
 	
 }
 	
@@ -45,6 +44,8 @@ h2 {
 
 section>p, section>ul{
 	font-size: 1.2em;
+	padding-left:10px;
+	padding-right:10px;
 	
 }
 

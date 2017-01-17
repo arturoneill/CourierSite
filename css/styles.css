@@ -197,7 +197,7 @@ a.circle_link {
 */
 	
 div>a:hover, div>a:focus, div>a:active {
-	   color:black;
+	   color:red;
 	text-decoration:none;
 }
 
@@ -286,7 +286,6 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
              background-position: center;
 		overflow:hidden;
 		background-color:white;
-		color:red;
 		opacity:0.75;
     }
     
@@ -389,7 +388,6 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
              background-position: center;
 		overflow:hidden;
 		background-color:white;
-		color:red;
 		opacity:0.75;
     }
     

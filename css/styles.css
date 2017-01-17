@@ -41,11 +41,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-section>ul, section>p {
+section>p {
 	font-size: 1.2em;
 	
 }
-
+section>li {
+	font-size: 1.2em;
+	
+}
 	
 /*-----------------FOOTER---------------------------------------------------------------------*/
 /*.footer {

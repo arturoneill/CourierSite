@@ -42,17 +42,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-section>p {
-	font-size: 1.2em;
-	padding-left:60px;
-	padding-right:20px;
-	
-}
-section>ul {
-	font-size: 1.2em;
-	padding-left:80px;
-	padding-right:20px;
-}
+
 	
 
 	
@@ -225,6 +215,19 @@ div>a:hover, div>a:focus, div>a:active {
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){
+	
+	
+	section>p {
+	font-size: 1.2em;
+	padding-left:60px;
+	padding-right:20px;
+	
+}
+section>ul {
+	font-size: 1.2em;
+	padding-left:80px;
+	padding-right:20px;
+}
   
  #collapsable-nav {
   background-color:#dcdcdc;

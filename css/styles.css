@@ -41,7 +41,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-section>li, section>p {
+section>ul, section>p {
 	font-size: 1.2em;
 	
 }

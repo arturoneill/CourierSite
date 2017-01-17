@@ -23,11 +23,11 @@ body{
 }
 .body-nav>div{
 	height:50px;
-	background-color:#3BB08F;
+	
 }
 
 a.body_nav_link {
-
+    background-color:#3BB08F;
     display:inline-block;
     width: 100%;
     line-height: 50px;

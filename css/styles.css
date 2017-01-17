@@ -15,10 +15,11 @@ body{
 }
 
 .body-nav {
-	background-color: red;
 	color:black;
 	font-weight:800;
+	font-size: 1,2em;
 	height:75px;
+	text-transform:uppercase;
 }
 .body-nav>div{
 	height:75px;

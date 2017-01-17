@@ -18,6 +18,7 @@ body{
 	background-color: red;
 	color:black;
 	font-weight:800;
+	height:75px;
 }
 
 section {
@@ -224,6 +225,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	section.body-nav {
 	visibility:hidden;
+		height:0px;
 }
 	section>p {
 	font-size: 1.2em;

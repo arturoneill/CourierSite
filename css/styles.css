@@ -222,7 +222,7 @@ div>a:hover, div>a:focus, div>a:active {
 
 @media screen and (min-width: 767px){
 	
-	.body-nav {
+	section.body-nav {
 	visibility:hidden;
 }
 	section>p {
@@ -382,7 +382,7 @@ section>ul {
 		margin-top: 50px;
 		
 	}
-	.tricircle {
+	section.tricircle {
     width: 300px;
     height: 400px;
     margin-top:25px;

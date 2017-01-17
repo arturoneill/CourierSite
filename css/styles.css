@@ -20,12 +20,14 @@ body{
 	font-size: 1,2em;
 	height:50px;
 	text-transform:uppercase;
+
 	
 }
 .body-nav>div{
 	height:50px;
 	padding-left:0px;
 	padding-right:0px;
+	opacity:0.75;
 	
 }
 	

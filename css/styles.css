@@ -20,6 +20,9 @@ body{
 	font-weight:800;
 	height:75px;
 }
+.body-nav>div{
+	height:75px;
+}
 
 section {
     background-color: white;

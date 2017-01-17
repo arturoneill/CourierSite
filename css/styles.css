@@ -24,30 +24,33 @@ body{
 }
 .body-nav>div{
 	height:50px;
+	margin-left:10px;
+	margin-right:10px;
+}
+	
+.body-nav>div:nth-child(1) {
+	background-color:#3BB08F;
+	
+	
+}
+.body-nav>div:nth-child(2) {
+	background-color:#ff7034;
+	
+	
+}
+.body-nav>div:nth-child(3) {
+	background-color:red;
+	
 	
 }
 
-a.body_nav_link:nth-child(1) {
-    background-color:#3BB08F;
+a.body_nav_link {
     display:inline-block;
     width: 100%;
     line-height: 50px;
     color:white;
 }
-a.body_nav_link:nth-child(2) {
-    background-color:#ff7034;
-    display:inline-block;
-    width: 100%;
-    line-height: 50px;
-    color:white;
-}
-a.body_nav_link:nth-child(2) {
-    background-color:red;
-    display:inline-block;
-    width: 100%;
-    line-height: 50px;
-    color:white;
-}
+
 a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
 
     display:inline-block;

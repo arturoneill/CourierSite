@@ -27,8 +27,22 @@ body{
 	
 }
 
-a.body_nav_link {
+a.body_nav_link:nth-child(1) {
     background-color:#3BB08F;
+    display:inline-block;
+    width: 100%;
+    line-height: 50px;
+    color:white;
+}
+a.body_nav_link:nth-child(2) {
+    background-color:#ff7034;
+    display:inline-block;
+    width: 100%;
+    line-height: 50px;
+    color:white;
+}
+a.body_nav_link:nth-child(2) {
+    background-color:red;
     display:inline-block;
     width: 100%;
     line-height: 50px;
@@ -40,7 +54,7 @@ a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
     width: 100%;
     line-height: 50px;
     color:white;
-    background-color:red;
+    background-color:#a9a9a9;
 }
 
 section {

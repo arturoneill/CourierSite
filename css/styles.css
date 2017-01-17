@@ -60,7 +60,7 @@ a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
     width: 100%;
     line-height: 50px;
     color:white;
-    background-color:#a9a9a9;
+    background-color:black;
 }
 
 section {

@@ -14,6 +14,12 @@ body{
 	
 }
 
+.body-nav {
+	background-color: red;
+	color:black;
+	font-weight:800;
+}
+
 section {
     background-color: white;
     
@@ -216,7 +222,9 @@ div>a:hover, div>a:focus, div>a:active {
 
 @media screen and (min-width: 767px){
 	
-	
+	.body-nav {
+	visibility:hidden;
+}
 	section>p {
 	font-size: 1.2em;
 	padding-left:60px;

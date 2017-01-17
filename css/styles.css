@@ -25,6 +25,14 @@ body{
 	background-color:#3BB08F;
 }
 
+a.body_nav_link {
+
+    display:inline-block;
+    width: 100%;
+    line-height: 75px;
+    color:white;
+}
+
 section {
     background-color: white;
     

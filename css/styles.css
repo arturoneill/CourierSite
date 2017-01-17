@@ -22,6 +22,7 @@ body{
 }
 .body-nav>div{
 	height:75px;
+	background-color:#3BB08F;
 }
 
 section {
@@ -101,7 +102,7 @@ footer {
 }
 
 #collapsable-nav {
-    background-color:3BB08F;
+    background-color:#3BB08F;
 	
     
 }

@@ -396,8 +396,8 @@ section>ul {
 		margin-top: 50px;
 		
 	}
-	section.tricircle {
-    width: 300px;
+tricircle {
+    width: 0px;
     height: 400px;
     margin-top:25px;
     margin-left:auto;

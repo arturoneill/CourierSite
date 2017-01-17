@@ -286,8 +286,8 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
              background-position: center;
 		overflow:hidden;
 		background-color:white;
-		color:black;
-		opacity:1;
+		color:red;
+		opacity:0.75;
     }
     
     .circle:nth-child(3) {
@@ -383,9 +383,14 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
         left: 75px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
-	    background-color:white;
-		color:black;
-		opacity:1;
+	     background-image: url("../images/gainesvillemapbw.png");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-position: center;
+		overflow:hidden;
+		background-color:white;
+		color:red;
+		opacity:0.75;
     }
     
     .circle:nth-child(3) {

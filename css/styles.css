@@ -392,10 +392,7 @@ section>ul {
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
-	section {
-		margin-top: 50px;
-		
-	}
+	
 section.circle-nav {
     width: 0px;
     height: 0px;

@@ -433,6 +433,16 @@ section.circle-nav {
     visibility:hidden;
 
     }
+	section.home-circles {
+    width: 200px;
+    height: 300px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    
+
+    }
 	
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	

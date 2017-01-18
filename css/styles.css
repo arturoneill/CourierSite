@@ -32,17 +32,17 @@ body{
 }
 	
 .body-nav>div:nth-child(1) {
-	background-color:#3BB08F;
+	background-color:red;
 	
 	
 }
 .body-nav>div:nth-child(2) {
-	background-color:#ff7034;
+	background-color:yellow;
 	
 	
 }
 .body-nav>div:nth-child(3) {
-	background-color:red;
+	background-color:fuchsia;
 	
 	
 }
@@ -143,7 +143,7 @@ footer {
 }
 
 #collapsable-nav {
-    background-color:#3BB08F;
+    background-color:fuchsia;
 	
     
 }
@@ -351,7 +351,7 @@ section>ul {
 	}
 	
     .circle:nth-child(2) {
-	    background-color:#ff7034;
+	    background-color:yellow;
         position: absolute;
         top: 125px;
         left: 25px;
@@ -475,7 +475,7 @@ section.circle-nav {
     }
 	
     .circle:nth-child(2) {
-	    background-color:#ff7034;
+	    background-color:yellow;
         position: absolute;
         top: 125px;
         left: 25px;

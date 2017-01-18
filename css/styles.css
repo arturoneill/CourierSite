@@ -69,7 +69,9 @@ section {
 	
 	
 }
-	
+panel .panel {
+	font-size:.9em;
+}
 
 	.navbar-brand {
     font-family: 'Nunito', sans-serif;

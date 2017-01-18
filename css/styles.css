@@ -37,7 +37,7 @@ body{
 	
 }
 .body-nav>div:nth-child(2) {
-	background-color:yellow;
+	background-color:#ff7400;
 	
 	
 }
@@ -351,7 +351,7 @@ section>ul {
 	}
 	
     .circle:nth-child(2) {
-	    background-color:yellow;
+	    background-color:#ff7400;
         position: absolute;
         top: 125px;
         left: 25px;
@@ -475,7 +475,7 @@ section.circle-nav {
     }
 	
     .circle:nth-child(2) {
-	    background-color:yellow;
+	    background-color:#ff7400;
         position: absolute;
         top: 125px;
         left: 25px;

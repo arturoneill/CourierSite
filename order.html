@@ -67,11 +67,31 @@
         </div>
       </section>
       <section class = "col-xs-12 col-sm-8 col-md-8 col-lg-8 text-center">
+         <!-- Contact Form - sent to a Google Sheet -->
+    <form id='foo'>
+      <p>
+        <label>Name</label>
+        <input id='name' name='name' type='text'>
+      </p><p>
+        <label>Email Address</label>
+        <input id='email' name='email' type='email'>
+      </p><p>
+        <label>Phone Number</label>
+        <input id='phone' name='phone' type='tel'>
+      </p><p>
+        <label>Message</label>
+        <textarea id='message' name='message' rows='5'></textarea>
+      </p>
+        <div id='success'></div>
+        <button type='submit'>Send</button>
+    </form>
       </section>
     
       
   
-     
+    
+
+
         
       
       
@@ -101,7 +121,9 @@
      <p style ="padding-top:15px;" class="text-center" >&copy; Arthur Rosales 2017</p>    
 </footer>
      
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src='js/google-sheet.js'></script>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

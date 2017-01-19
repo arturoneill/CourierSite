@@ -94,6 +94,13 @@ h2 {
     margin-bottom: 20px;
 }
 
+p>span {
+	font-weight:800;
+}
+.fine-print{
+	font-size:0.8em;
+}
+
 
 	
 

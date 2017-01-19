@@ -8,9 +8,13 @@ html{
 	position:relative;
 	min-height:100%;
 }
-body{
+/*body{
     font-family:'Nunito', sans-serif;
-	margin-bottom: 50px;
+	margin-bottom: 50px;*/
+body{
+	font-family: 'Anton', sans-serif;
+	margin-bottom:50px;
+}
 	
 }
 
@@ -74,7 +78,8 @@ panel .panel {
 }
 
 	.navbar-brand {
-    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family:'Anton', sans-serif;
     font-weight: 800;
     text-transform:uppercase;
     font-size:32px;

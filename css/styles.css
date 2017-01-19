@@ -53,6 +53,7 @@ a.body_nav_link {
     width: 100%;
     line-height: 50px;
     color:white;
+    font-weight:600;
 }
 
 a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{

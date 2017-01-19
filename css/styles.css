@@ -355,6 +355,8 @@ section>ul {
 		overflow:hidden;*/
 		background-color:white;
 		opacity:1;
+		border-radius: 12px;
+                 border: 1.5px solid red;
 		
 	}
 	
@@ -373,6 +375,8 @@ section>ul {
 		overflow:hidden;*/
 		background-color:white;
 		opacity:1;
+		border-radius: 12px;
+                 border: 1.5px solid red;
     }
     
     .circle:nth-child(3) {
@@ -385,6 +389,8 @@ section>ul {
 	    background-color:white;
 		color:black;
 		opacity:1;
+		border-radius: 12px;
+                 border: 1.5px solid red;
     }
 
 } 

@@ -11,10 +11,7 @@ html{
 /*body{
     font-family:'Nunito', sans-serif;
 	margin-bottom: 50px;*/
-body{
-	font-family: 'Anton', sans-serif;
-	margin-bottom:50px;
-}
+
 	
 }
 
@@ -79,7 +76,6 @@ panel .panel {
 
 	.navbar-brand {
     /*font-family: 'Nunito', sans-serif;*/
-    font-family:'Anton', sans-serif;
     font-weight: 800;
     text-transform:uppercase;
     font-size:32px;
@@ -346,10 +342,12 @@ section>ul {
     
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
-	    background-color:red;
+         font-family:'Nunito', sans-serif;
+	background-color:red;
         position: absolute;
         top: 0px;
         left: 25px;
+		 
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
 	   /*background-image: url("../images/phoneanswerbw.png");
@@ -366,6 +364,7 @@ section>ul {
 	}
 	
     .circle:nth-child(2) {
+	    font-family:'Nunito', sans-serif;
 	    background-color:#ff7400;
         position: absolute;
         top: 125px;
@@ -385,6 +384,7 @@ section>ul {
     }
     
     .circle:nth-child(3) {
+	    font-family:'Nunito', sans-serif;
 	    background-color:fuchsia;
         position: absolute;
        top: 250px;
@@ -445,7 +445,6 @@ section>ul {
 @media screen and (max-width: 767px){
 	
 	.navbar-brand {
-    font-family: 'Anton', sans-serif;
    /* font-family: 'Nunito', sans-serif;*/
     font-weight: 800;
     text-transform:uppercase;
@@ -478,39 +477,50 @@ section.circle-nav {
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
-	    background-color:red;
+	font-family:'Nunito', sans-serif;    
+	background-color:red;
         position: absolute;
         top: 0px;
         left: 25px;
     }
 	.circle:hover:nth-child(1), .circle:focus:nth-child(1), .circle:active:nth-child(1){
-	    background-image: url("../images/phoneanswerbw.png");
+	    /*background-image: url("../images/phoneanswerbw.png");
              background-repeat: no-repeat;
              background-attachment: static;
              background-position: center;
 		background-size: 250px 200px;
 		overflow:hidden;
 		background-color:white;
-		opacity:0.50;
+		opacity:0.50;*/
+		background-color:white;
+		opacity:1;
+		border-radius: 50%;
+                 border: 4px solid red;
     }
 	
     .circle:nth-child(2) {
+	    font-family:'Nunito', sans-serif;
 	    background-color:#ff7400;
         position: absolute;
         top: 125px;
         left: 25px;
     }
 	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
-	     background-image: url("../images/gainesvillemapbw.png");
+	     /*background-image: url("../images/gainesvillemapbw.png");
              background-repeat: no-repeat;
              background-attachment: fixed;
              background-position: center;
 		overflow:hidden;
 		background-color:white;
-		opacity:0.75;
+		opacity:0.75;*/
+		background-color:white;
+		opacity:1;
+		border-radius: 50%;
+                 border: 4px solid red;
     }
     
     .circle:nth-child(3) {
+	    font-family:'Nunito', sans-serif;
 	    background-color:fuchsia;
         position: absolute;
        top: 250px;
@@ -518,8 +528,9 @@ section.circle-nav {
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
 	    background-color:white;
-		color:black;
 		opacity:1;
+		border-radius: 50%;
+                 border: 4px solid red;
     }
 	}
 

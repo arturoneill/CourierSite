@@ -54,6 +54,7 @@ a.body_nav_link {
     line-height: 50px;
     color:white;
     font-weight:600;
+    text-transform:uppercase;
 }
 
 a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{

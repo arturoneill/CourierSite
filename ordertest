@@ -99,19 +99,19 @@
   
   <!--<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container text-center">
-   &copy; Arthur Rosales 2017
+  &copy; Hushpuppy Courier 2017
   </div>
 </nav>-->
   <!--<footer class="panel-footer">
     <div class="container text-center">
-       &copy; Arthur Rosales 2017
+       &copy; Hushpuppy Courier 2017
     </div>
   </footer> -->
   
   
- <!-- <div class="navbar-static-bottom" id="footer">&copy; Arthur Rosales 2017</div>-->
+ <!-- <div class="navbar-static-bottom" id="footer">&copy; Hushpuppy Courier 2017</div>-->
  <footer>
-     <p style ="padding-top:15px;" class="text-center" >&copy; Arthur Rosales 2017</p>    
+     <p style ="padding-top:15px;" class="text-center" >&copy; Hushpuppy Courier 2017</p>    
 </footer>
      
   

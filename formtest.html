@@ -174,7 +174,15 @@
       <label class="col-lg-6 control-label">How do you want to pay?</label>
       <div class="col-lg-6 inputGroupContainer">
         <div class="input-group">
-          <input type="text" class="form-control" name="payMethod" placeholder="Payment Method"/>
+          <!--<input type="text" class="form-control" name="payMethod" placeholder="Payment Method"/>-->
+          <select type="text" class="form-control" name="payMethod" placeholder="Payment method">
+          <optgroup >
+           <option value="Payment Method?" disabled selected>Payment Method?</option>
+          <option value="cash">cash</option>
+          <option value="card">creditcard (square)</option>
+          <option value="online">paypal/venmo</option>
+          </optgroup>
+          </select>
         </div>
       </div>
     </div>

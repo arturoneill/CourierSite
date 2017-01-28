@@ -52,6 +52,15 @@ $(document).ready(function() {
                     }
                 }
             },
+            
+            readyTime: {
+                message: 'Selection required',
+                validators: {
+                    notEmpty: {
+                        message: 'Selection required'
+                    }
+                }
+            }, 
             address: {
                 message: 'Address is not valid',
                 validators: {

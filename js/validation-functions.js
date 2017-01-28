@@ -8,7 +8,7 @@ $(document).ready(function() {
             validating: 'glyphicon glyphicon-refresh'
         },        
         fields: {
-            firstName: {
+            Name: {
              message: 'Name is not valid',
                 validators: {
                     notEmpty: {

@@ -9,15 +9,15 @@ $(document).ready(function() {
         },        
         fields: {
             firstName: {
-             message: 'The first name is not valid',
+             message: 'Name is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'The first name is required and cannot be empty'
+                        message: 'Name is required and cannot be empty'
                     },
                     stringLength: {
                         min: 1,
                         max: 30,
-                        message: 'The first name must be more than 1 and less than 30 characters long'
+                        message: 'Name must be more than 1 and less than 30 characters long'
                     },
                     regexp: {
                         regexp: /^[A-z]+$/,
@@ -25,20 +25,20 @@ $(document).ready(function() {
                     },
                 }
             },
-            lastName: {
-                message: 'Last Name is not valid',
+            phoneNumber: {
+                message: 'Phone number is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'Last Name is required and cannot be empty'
+                        message: 'Phone number is required and cannot be empty'
                     },
                     stringLength: {
-                        min: 1,
-                        max: 30,
-                        message: 'Last Name must be more than 1 and less than 30 characters long'
+                        min: 10,
+                        max: 11,
+                        message: 'Phone number must include area code'
                     },
                     regexp: {
-                        regexp: /^[A-z]+$/,
-                        message: 'Last Names can only consist of alphabetical characters'
+                        regexp: '^[0-9]+$',
+                        message: 'Phone number may only consist of numbers'
                     },
                 }
             },

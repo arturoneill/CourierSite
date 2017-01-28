@@ -20,7 +20,7 @@ $(document).ready(function() {
                         message: 'Name must be more than 1 and less than 30 characters long'
                     },
                     regexp: {
-                        regexp: /^[A-z]+$/,
+                        regexp: /^[A-z ]+$/,
                         message: 'The first name can only accept alphabetical input'
                     },
                 }

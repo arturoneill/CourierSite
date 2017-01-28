@@ -138,7 +138,15 @@
       <label class="col-lg-4 control-label">Level of Service</label>
       <div class="col-lg-4 inputGroupContainer">
         <div class="input-group col-lg-10">
-          <textarea type="text" class="form-control" name="serviceLevel" placeholder="Level of Service" style="resize: vertical;"></textarea>
+           <select type="text" class="form-control" name="serviceLevel" placeholder="Level of Service">
+          <optgroup >
+           <option value="when do you need it?" disabled selected>When do you need it?</option>
+          <option value="under an hour">rush</option>
+          <option value="under an hour">standard</option>
+          <option value="today">all day</option>
+          </optgroup>
+          </select>
+          <!--<input type="text" class="form-control" name="serviceLevel" placeholder="Level of Service" style="resize: vertical;"/>-->
         </div>
       </div>
     </div>
@@ -152,7 +160,7 @@
       </div>
     </div>
     
-    <div class="form-group">
+    <!--<div class="form-group">
       <label class="col-lg-6 control-label">Do you need payment upfront?</label>
       <div class="col-lg-6 inputGroupContainer">
         <div class="input-group">
@@ -160,6 +168,7 @@
         </div>
       </div>
     </div>
+-->
     
     <div class="form-group">
       <label class="col-lg-6 control-label">How do you want to pay?</label>

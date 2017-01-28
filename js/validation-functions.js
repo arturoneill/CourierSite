@@ -21,7 +21,7 @@ $(document).ready(function() {
                     },
                     regexp: {
                         regexp: /^(?!\s)[A-z ]+$/,
-                        message: 'The first name can only accept alphabetical input'
+                        message: 'Name can only accept alphabetical input'
                     },
                 }
             },

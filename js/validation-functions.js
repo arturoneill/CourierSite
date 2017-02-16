@@ -22,7 +22,7 @@ $(document).ready(function() {
                     regexp: {
                         regexp: /^(?!\s)[A-z ]+$/,
                         message: 'Name can only accept alphabetical input'
-                    },
+                    }
                 }
             },
             phoneNumber: {
@@ -39,7 +39,7 @@ $(document).ready(function() {
                     regexp: {
                         regexp: '^[0-9]+$',
                         message: 'Phone number may only consist of numbers'
-                    },
+                    }
                 }
             },
             email: {
@@ -76,7 +76,7 @@ $(document).ready(function() {
                     regexp: {
                         regexp: /^(?!\s)[A-z ]+$/,
                         message: 'Pick-up name can only accept alphabetical input'
-                    },
+                    }
                 }
             },
             
@@ -102,7 +102,7 @@ $(document).ready(function() {
                     regexp: {
                         regexp: /^(?!\s)[A-z ]+$/,
                         message: 'Pick-up name can only accept alphabetical input'
-                    },
+                    }
                 }
             },
             

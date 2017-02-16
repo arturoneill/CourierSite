@@ -133,6 +133,15 @@ $(document).ready(function() {
                     }
                 }
             }, 
+            
+             paymentMethod: {
+                message: 'Selection required',
+                validators: {
+                    notEmpty: {
+                        message: 'Selection required'
+                    }
+                }
+            },
         }
     })
     .on('success.form.bv', function(e) {

@@ -134,7 +134,7 @@ $(document).ready(function() {
                 }
             }, 
             
-             paymentMethod: {
+             payMethod: {
                 message: 'Selection required',
                 validators: {
                     notEmpty: {

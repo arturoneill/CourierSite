@@ -454,7 +454,12 @@ section>ul {
     color:black;
 }
 	
+#jumbotron {
+	width: 300px;
+	height: 172px;
+	}
 	
+
 section.circle-nav {
     width: 0px;
     height: 0px;

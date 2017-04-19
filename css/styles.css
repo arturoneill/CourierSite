@@ -466,8 +466,17 @@ section>ul {
 }
 	
 	*/
-
-
+/*-----------------------MEDIUM SCREEN SIZES------------------------*/
+@media screen and (max-width: 902px){
+#mapcircle {
+	 width: 0px;
+    height: 0px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    visibility:hidden;
+	}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
@@ -506,16 +515,7 @@ section.circle-nav {
     
 
     }
-.circle {
-	 width: 0px;
-    height: 0px;
-    margin-top:25px;
-    margin-left:auto;
-    margin-right: auto;
-    position: relative;
-    visibility:hidden;
-	}
-	
+
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {

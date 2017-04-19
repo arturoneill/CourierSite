@@ -162,7 +162,7 @@ footer {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: red;
+  color: #ff5555;
   background-color: transparent;
 }
 /*.navbar-default .navbar-brand>a:hover,

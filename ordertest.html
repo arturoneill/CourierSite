@@ -72,9 +72,213 @@
          <div class="circle" "text-center"><a class ="circle_link" href="map.html">Map</a></div>
         </div>
       </section>
-      <section class = "col-xs-12 col-sm-8 col-md-8 col-lg-8 text-center">
-        <h2>Place an Order</h2>
-       
+      
+      
+      <section class = "col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+   
+       <form class="form-horizontal" role="form" id="test-form">
+  
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Name</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="Name" placeholder="Your Name"/>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Phone Number</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Email</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="email" placeholder="name@domain.com"/>
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Ready Time</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <select type="text" class="form-control" name="readyTime" placeholder="When do you need it?">
+          <optgroup >
+           <option value="when do you need it?" disabled selected>When do you need it?</option>
+          <option value="Now">Now</option>
+          <option value="Time">8:00</option>
+            <option value="Time">8:15 am</option>
+           <option value="Time">8:30 am</option>
+            <option value="Time">8:45 am</option>
+            <option value="Time">9:00 am</option>
+            <option value="Time">9:15 am</option>
+           <option value="Time">9:30 am</option>
+            <option value="Time">9:45 am</option>
+            <option value="Time">10:00 am</option>
+            <option value="Time">10:15 am</option>
+           <option value="Time">10:30 am</option>
+            <option value="Time">10:45 am</option>
+            <option value="Time">11:00 am</option>
+            <option value="Time">11:15 am</option>
+           <option value="Time">11:30 am</option>
+            <option value="Time">11:45 am</option>
+            <option value="Time">12:00 pm</option>
+            <option value="Time">12:15 pm</option>
+           <option value="Time">12:30 pm</option>
+            <option value="Time">12:45 pm</option>
+             <option value="Time">1:00 pm</option>
+            <option value="Time">1:15 pm</option>
+           <option value="Time">1:30 pm</option>
+            <option value="Time">1:45 pm</option>
+            <option value="Time">2:00 pm</option>
+            <option value="Time">2:15 pm</option>
+           <option value="Time">2:30 pm</option>
+            <option value="Time">2:45 pm</option>
+            <option value="Time">3:00 pm</option>
+            <option value="Time">3:15 pm</option>
+           <option value="Time">3:30 pm</option>
+            <option value="Time">3:45 pm</option>
+            <option value="Time">4:00 pm</option>
+            <option value="Time">4:15 pm</option>
+           <option value="Time">4:30 pm</option>
+            <option value="Time">4:45 pm</option>
+            <option value="Time">5:00 pm</option>
+            <option value="Time">5:15 pm</option>
+           <option value="Time">5:30 pm</option>
+            <option value="Time">5:45 pm</option>
+            <option value="Time">6:00 pm</option>
+            <option value="Time">6:15 pm</option>
+           <option value="Time">6:30 pm</option>
+            <option value="Time">6:45 pm</option>
+            <option value="Time">7:00 pm</option>
+          <option value="Today">Anytime Today</option>
+            <option value="Today">Not Applicable</option>
+          </optgroup>
+          </select>
+          <!--<input type="text" class="form-control" name="readyTime" placeholder="Ready Time"/>-->
+        </div>
+      </div>
+    </div>
+        </form>
+         </section>
+      
+      <section class = "col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+   
+       <form class="form-horizontal" role="form" id="test-form">
+    
+    <div class="form-group">
+      <label class="col-lg-4 control-label"> Pick-Up Business/Organization</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="pickupName" placeholder="Pick-Up Business/Organization"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Pick-Up Address</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="pickupAddress" placeholder="Enter pick-up address here" rows="3" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+      
+    <div class="form-group">
+      <label class="col-lg-4 control-label"> Drop-Off Business/Organization (optional)</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="dropoffName" placeholder="Drop-Off Business/Organization"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-lg-4 control-label">Drop-Off Address</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="dropoffAddress" placeholder="Enter drop-off address here" rows="3" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+
+  <div class="form-group">
+      <label class="col-lg-4 control-label">Level of Service</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group col-lg-10">
+           <select type="text" class="form-control" name="serviceLevel" placeholder="Level of Service">
+          <optgroup >
+           <option value="when do you need it?" disabled selected>When do you need it?</option>
+          <option value="under an hour">rush</option>
+          <option value="under an hour">standard</option>
+          <option value="today">all day</option>
+          </optgroup>
+          </select>
+          <!--<input type="text" class="form-control" name="serviceLevel" placeholder="Level of Service" style="resize: vertical;"/>-->
+        </div>
+      </div>
+    </div>
+    
+      <div class="form-group">
+      <label class="col-lg-4 control-label">What are we picking up?</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="orderContents" placeholder="Please detail your order" rows="3" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+    
+    <!--<div class="form-group">
+      <label class="col-lg-6 control-label">Do you need payment upfront?</label>
+      <div class="col-lg-6 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="payUpfront" placeholder="yes or no"/>
+        </div>
+      </div>
+    </div>
+-->
+    
+    <div class="form-group">
+      <label class="col-lg-4 control-label">How do you want to pay?</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group">
+          <!--<input type="text" class="form-control" name="payMethod" placeholder="Payment Method"/>-->
+          <select type="text" class="form-control" name="payMethod" placeholder="Payment method">
+          <optgroup >
+           <option value="Payment Method?" disabled selected>Payment Method?</option>
+          <option value="cash">cash</option>
+          <option value="card">creditcard (square)</option>
+          <option value="online">paypal/venmo</option>
+          </optgroup>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+     <div class="form-group">
+      <label class="col-lg-4 control-label">Notes</label>
+      <div class="col-lg-4 inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="notes" placeholder="Anything else?" rows="5" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-lg-9 col-lg-offset-3">
+        <button type="submit" class="btn btn-default" id="postForm">Submit</button>
+      </div>
+    </div>
+
+  </form>
       </section>
   
       

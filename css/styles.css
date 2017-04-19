@@ -467,7 +467,7 @@ section>ul {
 	
 	*/
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
-@media screen and (max-width: 902px){
+@media screen and (max-width: 992px){
 #mapcircle {
 	 width: 0px;
     height: 0px;

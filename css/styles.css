@@ -145,6 +145,14 @@ footer {
 }
 
 /*-----------------Header----------------------------------------------------------------------*/
+
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: red;
+  background-color: transparent;
+}
+
 #header-nav{
     background-color: #dcdcdc;
     border: 0px;

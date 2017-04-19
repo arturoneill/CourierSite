@@ -454,11 +454,7 @@ section>ul {
     color:black;
 }
 	
-#jumbotron {
-	width: 300px;
-	height: 172px;
-	}
-	
+
 
 section.circle-nav {
     width: 0px;
@@ -540,5 +536,15 @@ section.circle-nav {
                  border: 4px solid red;
     }
 	}
-
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 400px){
+	
+	#jumbotron {
+	width: 300px;
+	height: 172px;
+	}
+}
+	
+	
+	
 

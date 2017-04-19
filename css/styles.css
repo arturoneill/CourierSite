@@ -163,7 +163,8 @@ footer {
     color: black;
    
 }
-.navbar-default .navbar-brand>a:hover {
+.navbar-default .navbar-brand>a:hover,
+.navbar-default .navbar-brand>a:hover{
    opacity: 1;
    color: red;
    

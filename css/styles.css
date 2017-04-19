@@ -68,6 +68,13 @@ a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
     background-color:black;
 }
 
+a.navbar-brand:hover{
+
+    opacity: 1; 
+    color:Red;
+    background-color:black;
+}
+
 section {
     background-color: white;
     

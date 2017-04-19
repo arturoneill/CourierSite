@@ -148,7 +148,9 @@ footer {
 
 }
 
-
+header{
+	background-color:#dcdcdc;
+}
 #header-nav{
     background-color: #dcdcdc;
     border: 0px;
@@ -162,7 +164,7 @@ footer {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ff5555;
+  color: red;
   background-color: transparent;
 }
 /*.navbar-default .navbar-brand>a:hover,

@@ -128,7 +128,9 @@ p>span {
 }
 */
 
-
+body.container {
+margin-bottom:50px;
+}
 .panel-footer {
     border: 0;
 }

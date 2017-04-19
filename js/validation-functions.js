@@ -153,6 +153,7 @@ $(document).ready(function() {
 
         // Get the BootstrapValidator instance
         var bv = $form.data('bootstrapValidator');
+        
 
         // Use Ajax to submit form data
         var url = 'https://script.google.com/macros/s/AKfycbxYae8esbCmRXYGGU1nLhEch2bvpdVrgWuqyz9Dv5bMIcgN1PY/exec';

@@ -128,9 +128,7 @@ p>span {
 }
 */
 
-body.container {
-margin-bottom:50px;
-}
+
 .panel-footer {
     border: 0;
 }
@@ -144,6 +142,7 @@ footer {
     height: 50px;
     width: 100%;
     overflow:hidden;
+	margin-top:50px;
 }
 
 /*-----------------Header----------------------------------------------------------------------*/

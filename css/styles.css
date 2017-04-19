@@ -446,6 +446,11 @@ section>ul {
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
+	#jumbotron {
+	width: 450px;
+	height: 257px;
+	}
+	
 	.navbar-brand {
    /* font-family: 'Nunito', sans-serif;*/
     font-weight: 800;

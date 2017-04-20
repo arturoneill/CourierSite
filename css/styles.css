@@ -383,10 +383,10 @@ section>ul {
              background-position: center;
 		background-size: 250px 200px;
 		overflow:hidden;*/
-		background-color:white;
+		background-color:lightgrey;
 		opacity:1;
-		border-radius: 50%;
-                 border: 4px solid red;
+		/*border-radius: 50%;
+                 border: 4px solid red;*/
 		
 	}
 	
@@ -404,10 +404,10 @@ section>ul {
              background-position: center;
 		background-size: 200px 200px;
 		overflow:hidden;*/
-		background-color:white;
+		background-color:lightgrey;
 		opacity:1;
-		border-radius: 50%;
-                 border: 4px solid red;
+		/*border-radius: 50%;
+                 border: 4px solid red;*/
     }
     
     .circle:nth-child(3) {
@@ -418,11 +418,10 @@ section>ul {
        left: 25px;
     }
 	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
-	    background-color:white;
-		color:black;
+	   background-color:lightgrey;
 		opacity:1;
-		border-radius: 50%;
-                 border: 4px solid red;
+		/*border-radius: 50%;
+                 border: 4px solid red;*/
     }
 
 } 

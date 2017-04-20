@@ -156,7 +156,7 @@ $(document).ready(function() {
         
 
         // Use Ajax to submit form data
-        var url = 'https://script.google.com/macros/s/AKfycbxYae8esbCmRXYGGU1nLhEch2bvpdVrgWuqyz9Dv5bMIcgN1PY/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbyft356uP98eL_t_T2OyQM3zKOkeKalirAimcO7hM5o3k7r91g/exec';
         var redirectUrl = 'success-page.html';
         // show the loading 
         $('#postForm').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));

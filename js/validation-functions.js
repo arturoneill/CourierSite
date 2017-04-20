@@ -171,6 +171,7 @@ $(document).ready(function() {
                     //alert("Browser is Safari -- we get an error, but the form still submits -- continue.");
                     $(location).attr('href',redirectUrl);                
                 }
+                
             });
     });
 });

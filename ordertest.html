@@ -83,14 +83,18 @@
           $('#parcelWeight').change(function() {
     $('#parcelButton').data('item-custom4-value', $(this).val());
 });
-      $('#deliverySpeed').change(function() {
+  
+       $.data('item-weight').change(function() {
     $('#parcelButton').data('item-custom4-value', $(this).val());
 });
-       $.data('item-weight').change(function() {
-    $('#parcelButton').data('item-custom5-value', $(this).val());
-});
+      
+      $("#regularfee").text(regular_fee);
+mynewvar=regular_fee;
       
     </script>
+        <!--$('#deliverySpeed').change(function() {
+    $('#parcelButton').data('item-custom4-value', $(this).val());
+});-->
     
       <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-responsive.css">

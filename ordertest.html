@@ -111,19 +111,28 @@
         
         
         <button
-    class="snipcart-add-item"
+    class="snipcart-add-item" id="deliveryButton"
     data-item-id="2"
     data-item-name="Order Delivery"
     data-item-price="3.00"
     data-item-weight="20"
     data-item-url="http://hushpuppycourier.com/orderdelivery"
-    data-item-categories="rush, standard, daily"
-    
-    data-item-description="Local Delivery">
+   data-item-custom2-name="Delivery Speed"
+   data-item-custom2-options="Rush|Standard|Daily">
+   data-item-description="Local Delivery">
         Order Delivery
 </button>
+        <select id="delivery-Speed">
+    <option>Rush</option>
+    <option>Standard</option>
+    <option>Daily</option>
+</select>
         
-        <!--data-item-url="http://myapp.com/products/bacon"-->
+        $('#delivery-Speed').change(function() {
+    $('#deliveryButton').data('item-custom2-value', $(this).val());
+});
+        
+        
         
         
       

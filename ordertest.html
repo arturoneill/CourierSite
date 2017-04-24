@@ -71,6 +71,20 @@
     $('#restaurantButton').data('item-custom4-value', $(this).val());
 });
       
+          $('#pickupName').change(function() {
+    $('#parcelButton').data('item-custom1-value', $(this).val());
+});
+          $('#pickupAddress').change(function() {
+    $('#parcelButton').data('item-custom2-value', $(this).val());
+});
+          $('#pickupItem').change(function() {
+    $('#parcelButton').data('item-custom3-value', $(this).val());
+});
+      $('#deliverySpeed').change(function() {
+    $('#parcelButton').data('item-custom4-value', $(this).val());
+});
+     
+      
     </script>
     
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -157,8 +171,26 @@
     data-item-custom3-name="Food Order"
    data-item-custom4-name="Delivery Speed"
    data-item-custom4-options="Rush[+5.00]|Standard[+2.00]|Daily"
-   data-item-description="Get local food delivery fast!">
+   data-item-description="Get local food delivered fast!">
         Get some food!
+</button>
+        </div>
+         <div>
+          <lable>Parcel Delivery</lable>
+          <button
+    class="snipcart-add-item" id="parcelButton"
+    data-item-id="1"
+    data-item-name="Parcel Delivery"
+    data-item-price="3.00"
+    data-item-weight="20"
+    data-item-url="http://hushpuppycourier.com/ordertest"
+    data-item-custom1-name="Pickup Business Name (optional)"
+    data-item-custom2-name="Pickup Address"
+    data-item-custom3-name="Parcel Description"
+   data-item-custom4-name="Delivery Speed"
+   data-item-custom4-options="Rush[+5.00]|Standard[+2.00]|Daily"
+   data-item-description="Professional parcel pickup and dropoff">
+        Parcel handling
 </button>
         </div>
     

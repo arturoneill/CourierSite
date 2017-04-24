@@ -83,7 +83,9 @@
       $('#deliverySpeed').change(function() {
     $('#parcelButton').data('item-custom4-value', $(this).val());
 });
-     
+       $.data('item-weight').change(function() {
+    $('#parcelButton').data('item-custom5-value', $(this).val());
+});
       
     </script>
     
@@ -175,6 +177,7 @@
     data-item-custom1-name="Restaurant Name"
     data-item-custom2-name="Restaurant Address"
     data-item-custom3-name="Food Order"
+                  data-item-custom3-name="Food Order"
    data-item-description="Get local food delivered fast!" style="color:black;">
         Get some food!
 </button>
@@ -189,6 +192,7 @@
     data-item-id="2"
     data-item-name="Parcel Delivery"
     data-item-price="1.00"
+    data-item-custom5-name="Parcel Weight"
     data-item-weight="20"
     data-item-url="http://hushpuppycourier.com/ordertest"
     data-item-custom1-name="Pickup Business Name (optional)"

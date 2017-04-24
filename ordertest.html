@@ -49,9 +49,7 @@
       from { transform: scale(1) rotate(0deg);}
       to { transform: scale(1) rotate(360deg);}
   }
-   .snip-quantity-trigger {
-     display:none;
-    }
+  
       
       
 
@@ -60,17 +58,17 @@
     
     <script language="javascript">          
       
-      $('#deliveryName').change(function() {
-    $('#deliveryButton').data('item-custom1-value', $(this).val());
+      $('#restaurantName').change(function() {
+    $('#restaurantButton').data('item-custom1-value', $(this).val());
 });
-          $('#deliveryAddress').change(function() {
-    $('#deliveryButton').data('item-custom2-value', $(this).val());
+          $('#restaurantAddress').change(function() {
+    $('#restaurantButton').data('item-custom2-value', $(this).val());
 });
-          $('#deliveryItem').change(function() {
-    $('#deliveryButton').data('item-custom3-value', $(this).val());
+          $('#restaurantItem').change(function() {
+    $('#restaurantButton').data('item-custom3-value', $(this).val());
 });
       $('#deliverySpeed').change(function() {
-    $('#deliveryButton').data('item-custom4-value', $(this).val());
+    $('#restaurantButton').data('item-custom4-value', $(this).val());
 });
       
     </script>
@@ -145,21 +143,24 @@
     <option>Standard</option>
     <option>Daily</option>
 </select>  -->
-        <button
-    class="snipcart-add-item" id="deliveryButton"
+        <div>
+          <lable>Restaurant Delivery</lable>
+          <button
+    class="snipcart-add-item" id="restaurantButton"
     data-item-id="1"
-    data-item-name="Order Delivery"
+    data-item-name="Food Delivery"
     data-item-price="3.00"
     data-item-weight="20"
     data-item-url="http://hushpuppycourier.com/ordertest"
-    data-item-custom1-name="Delivery Name"
-    data-item-custom2-name="Delivery Address"
-    data-item-custom3-name="Delivery Item"
+    data-item-custom1-name="Restaurant Name"
+    data-item-custom2-name="Restaurant Address"
+    data-item-custom3-name="Food Order"
    data-item-custom4-name="Delivery Speed"
    data-item-custom4-options="Rush[+5.00]|Standard[+2.00]|Daily"
-   data-item-description="Local Delivery">
-        Place an Order
+   data-item-description="Get local food delivery fast!">
+        Get some food!
 </button>
+        </div>
     
         
 

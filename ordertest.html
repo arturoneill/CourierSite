@@ -84,8 +84,8 @@
     $('#parcelButton').data('item-custom4-value', $(this).val());
 });
   
-       $.data('item-weight').change(function() {
-    $('#parcelButton').data('item-custom4-value', $(this).val());
+       $.data('item-custom4-value').change(function() {
+    $('#parcelButton').data('item-weight'), $(this).val());
 });
       
       $("#regularfee").text(regular_fee);

@@ -111,6 +111,8 @@ panel .panel {
 
 h2 {
     margin-bottom: 20px;
+    margin-top:0px;
+    font-weight:800;
 }
 
 p>span {

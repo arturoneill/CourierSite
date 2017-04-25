@@ -17,10 +17,10 @@ html{
 	
 }
 body{
-	background-color:#a9a9a9;
+	background-color:#ff5555;
 }
 #background{
-	background-color:#ff5555;
+	background-color:#a9a9a9;
 	background-image: url("");
 }
 
@@ -81,6 +81,7 @@ a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
     background-color: white;
 	padding-left:10px;
 	padding-top:10px;
+	padding-bottom:10px;
 	margin-right: 15px;
 	margin-top:15px;
     	

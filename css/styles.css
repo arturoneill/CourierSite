@@ -17,6 +17,10 @@ html{
 	
 }
 
+body{
+	background-image: url("images/diagonalstripe.jpg");
+}
+
 .body-nav {
 	color:black;
 	font-weight:800;

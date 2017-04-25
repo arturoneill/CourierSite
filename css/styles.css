@@ -77,11 +77,11 @@ a.body_nav_link:hover, a.body_nav_link:focus, a.body_nav_link:active{
 
 
 
-section {
+.content-section {
     background-color: white;
-	padding-top:10px;
 	padding-left:10px;
 	margin-right: 15px;
+	margin-top:15px;
     	
 }
 

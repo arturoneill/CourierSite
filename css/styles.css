@@ -316,15 +316,15 @@ div>a:hover, div>a:focus, div>a:active {
 		height:0px;
 }
 	section>p {
-	font-size: 1.2em;
-	padding-left:60px;
-	padding-right:20px;
+	font-size: 1em;
+	padding-left:10px;
+	padding-right:10px;
 	
 }
 section>ul {
-	font-size: 1.2em;
-	padding-left:80px;
-	padding-right:20px;
+	font-size: 1em;
+	padding-left:20px;
+	padding-right:10px;
 }
   
  #collapsable-nav {

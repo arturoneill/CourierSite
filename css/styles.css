@@ -16,8 +16,11 @@ html{
 	background-color:#FF5555;
 	
 }
-
+body{
+	background-color:#a9a9a9;
+}
 #background{
+	background-color:#ff5555;
 	background-image: url("/images/diagonalstripe.jpg");
 }
 

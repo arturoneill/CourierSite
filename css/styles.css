@@ -17,8 +17,8 @@ html{
 	
 }
 
-body{
-	background-image: url("images/diagonalstripe.jpg");
+#background{
+	background-image: url("/images/diagonalstripe.jpg");
 }
 
 .body-nav {

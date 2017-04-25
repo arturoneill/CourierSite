@@ -84,6 +84,16 @@
     $('#parcelButton').data('item-custom4-value', $(this).val());
 });
       
+      <script src="jQuery.js">
+      Snipcart.execute('bind', 'cart.opened', function () { });
+      Snipcart.api.items.clear().then(function (removedItems) {
+    console.log(removedItems);
+});
+      Snipcart.execute('unbind', 'cart.opened');
+});
+      
+ </script>
+      
 
     </script>
         <!--$('#deliverySpeed').change(function() {

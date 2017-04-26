@@ -331,7 +331,7 @@ div>a:hover, div>a:focus, div>a:active {
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){
-/*	
+	
 	section.body-nav {
 	visibility:hidden;
 		height:0px;
@@ -350,7 +350,7 @@ section>ul {
   
  /*#collapsable-nav {
   background-color:#dcdcdc;*/
- /*
+ 
 	#collapsable-nav {
 	  background-color:transparent;
 	  
@@ -392,7 +392,7 @@ section>ul {
 		opacity:1;
     
 }
-*/
+
 .panel-footer {
     position: absolute;
     bottom: 0px;
@@ -500,7 +500,7 @@ section>ul {
 	*/
 
 /*-------------------VERY LARGE SCREENS---------------------------------*/
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px){
 section.body-nav {
 	visibility:hidden;
 		height:0px;

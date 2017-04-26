@@ -499,7 +499,7 @@ section>ul {
 
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
 @media screen and (min-width: 992px){
-button.navbar-toggle {
+navbar-toggle {
     display:none;
     
 }

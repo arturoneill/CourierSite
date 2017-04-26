@@ -1,7 +1,6 @@
 
 
 
-
 /*-----------------HTML AND BODY TAGS------------------------------------------------------*/
 
 html{
@@ -20,7 +19,6 @@ body{
 	background-color:#E9EBE4;
 	/*background-image: url("/images/flsunset.jpg");
 	
-
    
     background-position: center;
     background-repeat: no-repeat;
@@ -398,7 +396,6 @@ section>ul {
     bottom: 0px;
     width: 100%;
 }
-}
     
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
@@ -472,7 +469,6 @@ section>ul {
 		opacity:1;
     }
 	
-
     .circle:nth-child(2) {
 	    background-color:#ff7034;
         position: absolute;
@@ -502,8 +498,7 @@ section>ul {
 
 /*-------------------VERY LARGE SCREENS---------------------------------*/
 @media screen and (max-width: 992px){
-
-	/*section.body-nav {
+section.body-nav {
 	visibility:hidden;
 		height:0px;
 }
@@ -522,7 +517,7 @@ section>ul {
  /*#collapsable-nav {
   background-color:#dcdcdc;*/
  
-	/*#collapsable-nav {
+	#collapsable-nav {
 	  background-color:transparent;
 	  
         }
@@ -563,30 +558,26 @@ section>ul {
 		opacity:1;
     
 }
-	*/
+	
 	
 	#nav-list {
 	visibility:hidden;
 		height:0px;
 }
-	
-	
-
 }
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
-@media screen and (min-width: 992px){
-
-	
-	.navbar-toggle {
-    display: none;
-}
+@media screen and (max-width: 992px){
+#mapcircle {
+	 width: 0px;
+    height: 0px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    visibility:hidden;
+	}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
-	
-	
-	section.circle-nav {
-		visibility:hidden;
-	}
 	
 	#jumbotron {
 	width: 300px;
@@ -702,6 +693,3 @@ section.circle-nav {
 }
 
 	
-	
-	
-

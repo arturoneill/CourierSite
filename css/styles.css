@@ -331,7 +331,7 @@ div>a:hover, div>a:focus, div>a:active {
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){
-	
+/*	
 	section.body-nav {
 	visibility:hidden;
 		height:0px;
@@ -350,7 +350,8 @@ section>ul {
   
  /*#collapsable-nav {
   background-color:#dcdcdc;*/
-  #collapsable-nav {
+ /*
+	#collapsable-nav {
 	  background-color:transparent;
 	  
         }
@@ -391,7 +392,7 @@ section>ul {
 		opacity:1;
     
 }
-
+*/
 .panel-footer {
     position: absolute;
     bottom: 0px;
@@ -497,6 +498,69 @@ section>ul {
 }
 	
 	*/
+
+/*-------------------VERY LARGE SCREENS---------------------------------*/
+
+section.body-nav {
+	visibility:hidden;
+		height:0px;
+}
+	section>p {
+	font-size: 1em;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+section>ul {
+	font-size: 1em;
+	padding-left:20px;
+	padding-right:10px;
+}
+  
+ /*#collapsable-nav {
+  background-color:#dcdcdc;*/
+ 
+	#collapsable-nav {
+	  background-color:transparent;
+	  
+        }
+   
+     li {
+        color:black;
+        
+    }
+	
+ .navbar-nav ul li a:hover, .navbar-nav ul li a:focus, .navbar-nav ul li a:active {
+	   color:white;
+	 
+	   
+	}
+	
+.nav>li:hover:nth-child(1), .nav>li:focus:nth-child(1), .nav>li:active:nth-child(1) {
+        background-color:red;
+        color: white;
+	   opacity:1;
+    
+}
+   .nav>li:hover:nth-child(2), .nav>li:focus:nth-child(2), .nav>li:active:nth-child(2) {
+        background-color:red;
+        color: white;
+	   opacity:1;
+    
+}
+        .nav>li:hover:nth-child(3), .nav>li:focus:nth-child(3), .nav>li:active:nth-child(3) {
+        background-color:red;
+        color: white;
+		opacity:1;
+    
+}
+	
+	   .nav>li:hover:nth-child(4), .nav>li:focus:nth-child(4), .nav>li:active:nth-child(4) {
+        background-color:red;
+        color: white;
+		opacity:1;
+    
+}
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
 @media screen and (max-width: 992px){
 #mapcircle {

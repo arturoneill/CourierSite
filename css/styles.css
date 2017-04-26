@@ -570,6 +570,7 @@ section>ul {
 		height:0px;
 }
 	
+	
 
 }
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
@@ -581,6 +582,11 @@ section>ul {
 }
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
+	
+	
+	section.circle-nav {
+		visibility:hidden;
+	}
 	
 	#jumbotron {
 	width: 300px;

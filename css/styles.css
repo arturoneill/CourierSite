@@ -181,8 +181,8 @@ header{
 	background-image: url("/images/flsunset.jpg");
 }
 #header-nav{
-    background-color: transparent;
-	background-image: url("/images/flsunset.jpg");
+    background-color: #dcdcdc;
+	
     border: 0px;
 	border-style:none;
     
@@ -347,9 +347,11 @@ section>ul {
 	padding-right:10px;
 }
   
- #collapsable-nav {
-  background-color:#dcdcdc;
-  
+ /*#collapsable-nav {
+  background-color:#dcdcdc;*/
+  #collapsable-nav {
+	  background-color:transparent;
+	  
         }
    
      li {

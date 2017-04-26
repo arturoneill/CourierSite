@@ -499,18 +499,13 @@ section>ul {
 
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
 @media screen and (min-width: 992px){
-navbar-toggle {
+.navbar-toggle {
     display:none;
     
 }
 	
 	}
 
-@media screen and (max-width: 992px){
-.navbar-right {
-		display:none;
-	}
-}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	

@@ -181,7 +181,7 @@ header{
 	background-image: url("/images/flsunset.jpg");
 }
 #header-nav{
-    background-color: #dcdcdc;
+    background-color: transparent;
 	
     border: 0px;
 	border-style:none;
@@ -206,7 +206,7 @@ header{
 }
 
 #collapsable-nav {
-    background-color:transparent;
+    background-color:#dcdcdc;
 	
     
 }

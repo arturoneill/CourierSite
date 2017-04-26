@@ -500,7 +500,7 @@ section>ul {
 	*/
 
 /*-------------------VERY LARGE SCREENS---------------------------------*/
-
+@media screen and (max-width: 992px){
 section.body-nav {
 	visibility:hidden;
 		height:0px;
@@ -560,6 +560,7 @@ section>ul {
         color: white;
 		opacity:1;
     
+}
 }
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
 @media screen and (max-width: 992px){

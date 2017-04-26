@@ -178,10 +178,13 @@ footer {
 
 header{
 	background-color:#dcdcdc;
+	background-image: url("/images/flsunset.jpg");
 }
 #header-nav{
     background-color: #dcdcdc;
+	background-image: url("/images/flsunset.jpg");
     border: 0px;
+	border-style:none;
     
 }
 

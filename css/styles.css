@@ -180,7 +180,7 @@ header{
 	background-image: url("/images/flsunset.jpg");*/
 }
 #header-nav{
-	background-image: url("/images/flsunset.jpg");
+	background-image: url("/images/paynespanorama.jpg");
     background-color: transparent;
 	
     border: 0px;
@@ -495,17 +495,22 @@ section>ul {
 }
 	
 	*/
+
+
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
-@media screen and (max-width: 992px){
-#mapcircle {
-	 width: 0px;
-    height: 0px;
-    margin-top:25px;
-    margin-left:auto;
-    margin-right: auto;
-    position: relative;
-    visibility:hidden;
+@media screen and (min-width: 992px){
+button.navbar-toggle {
+    display:none;
+    
+}
+	
 	}
+
+@media screen and (max-width: 992px){
+.navbar-right {
+		display:none;
+	}
+}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	

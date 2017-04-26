@@ -189,7 +189,9 @@ header{
 	border-style:none;
     
 }
-
+.navbar{
+	border-radius:0px;
+}
 .navbar-default .navbar-brand {
     color: white;
    

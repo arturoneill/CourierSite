@@ -501,7 +501,8 @@ section>ul {
 
 /*-------------------VERY LARGE SCREENS---------------------------------*/
 @media screen and (max-width: 992px){
-section.body-nav {
+
+	/*section.body-nav {
 	visibility:hidden;
 		height:0px;
 }
@@ -520,7 +521,7 @@ section>ul {
  /*#collapsable-nav {
   background-color:#dcdcdc;*/
  
-	#collapsable-nav {
+	/*#collapsable-nav {
 	  background-color:transparent;
 	  
         }
@@ -561,11 +562,16 @@ section>ul {
 		opacity:1;
     
 }
-	
+	*/
 	
 	#nav-list {
 	visibility:hidden;
 		height:0px;
+}
+	
+	button.navbar-toggle {
+   visibility:visible;
+    
 }
 }
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/

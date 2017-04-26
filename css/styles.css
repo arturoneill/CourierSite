@@ -17,14 +17,14 @@ html{
 	
 }
 body{
-	background-color:#ff5555;
-	background-image: url("/images/flsunset.jpg");
+	background-color:#E9EBE4;
+	/*background-image: url("/images/flsunset.jpg");
 	
 
-    /* Center and scale the image nicely */
+   
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 #background{

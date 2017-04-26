@@ -197,7 +197,7 @@ header{
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: red;
+  color: white;
   background-color: transparent;
 }
 /*.navbar-default .navbar-brand>a:hover,
@@ -229,7 +229,7 @@ header{
 }
 
 .nav>li:hover, .nav>li:focus, .nav>li:active {
-    background-color: white;
+    background-color: red;
 	
 
 }

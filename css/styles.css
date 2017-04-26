@@ -511,6 +511,11 @@ section>ul {
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	
+
+	#nav-list{
+		background-color:white;
+	}
+	
 	#jumbotron {
 	width: 300px;
 	height: 300px;

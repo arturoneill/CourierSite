@@ -398,6 +398,7 @@ section>ul {
     bottom: 0px;
     width: 100%;
 }
+}
     
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {
@@ -569,10 +570,7 @@ section>ul {
 		height:0px;
 }
 	
-	button.navbar-toggle {
-   visibility:visible;
-    
-}
+
 }
 /*-----------------------MEDIUM SCREEN SIZES------------------------*/
 @media screen and (min-width: 992px){

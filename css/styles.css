@@ -181,6 +181,8 @@ header{
 }
 #header-nav{
 	background-image: url("/images/paynespanorama1.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
     background-color: white;
 	
     border: 0px;

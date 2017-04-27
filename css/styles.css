@@ -37,7 +37,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	background:linear-gradient(to bottom, red 0%,fuchsia 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='red', endColorstr='fuchsia',GradientType=0 );
 	-webkit-background-clip: text;
+	-ms-background-clip:text;
+	-moz-background-clip:text;
   -webkit-text-fill-color: transparent;
+	-ms-text-fill-color:transparent;
+	-moz-text-fill-color:transparent;
 }
 	
 #background{

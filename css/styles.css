@@ -31,7 +31,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     background-repeat: no-repeat;
     background-size: cover;*/
 }
-
+.gradient-text {
+	color:-moz-linear-gradient(top, red 0%, fuchsia 100%);
+	color:-webkit-linear-gradient(top, red 0%,fuchsia 100%);
+	color:linear-gradient(to bottom, red 0%,fuchsia 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='red', endColorstr='fuchsia',GradientType=0 );
+}
+	
 #background{
 	background-color:transparent;
 	

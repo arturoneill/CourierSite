@@ -620,14 +620,19 @@ section.circle-nav {
     }
 	}
 /*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
 	
 	#jumbotron {
 	width: 300px;
 	height: 300px;
 	}
 }
-
+.content-section {
+   
+	margin-right: 0px;
+	
+    	
+}
 /*-----------------------EXTRA EXTRA SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 310px){
 	

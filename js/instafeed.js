@@ -38,11 +38,11 @@
     Instafeed.prototype.run = function(url) {
       var header, instanceName, script;
       if (typeof this.options.clientId !== 'ba7dac09905e417a92273cdf443ab85c') {
-        if (typeof this.options.accessToken !== 'string') {
+        if (typeof this.options.accessToken !== 'ba7dac09905e417a92273cdf443ab85c') {
           throw new Error("Missing clientId or accessToken.");
         }
       }
-      if (typeof this.options.accessToken !== 'string') {
+      if (typeof this.options.accessToken !== 'ba7dac09905e417a92273cdf443ab85c') {
         if (typeof this.options.clientId !== 'ba7dac09905e417a92273cdf443ab85c') {
           throw new Error("Missing clientId or accessToken.");
         }

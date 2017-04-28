@@ -45,6 +45,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	-moz-text-fill-color:transparent;
 	text-fill-color:transparent;
 }
+
+.insta-bg{
+background-image:("https://snapwidget.com/embed/373851");
+background-size:100%;
+border:none;
+overflow:hidden;
+	
+}
 	
 #background{
 	background-color:transparent;

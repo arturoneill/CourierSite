@@ -205,7 +205,8 @@ section:last-child {
 
 
 footer {
-    background-color: #a9a9a9;
+    background-color: #333;
+	color:white;
     position: absolute;
     left: 0;
     bottom: 0;

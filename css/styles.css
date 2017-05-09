@@ -416,7 +416,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 .parallax-pattern { 
     /* The image used */
-    background-image: url("/images/puppycatbanner.png");
+    background-image: url("/images/puppycatbanner.jpg");
 
     /* Set a specific height */
     height: 200px; 

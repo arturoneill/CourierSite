@@ -38,7 +38,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     background-image: url("/images/pleasantrace.jpg");
 
     /* Set a specific height */
-    height: 500px; 
+    height: 100%; 
+	
+	z-index: -10;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed !important;

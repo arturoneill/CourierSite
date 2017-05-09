@@ -32,6 +32,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     background-repeat: no-repeat;
     background-size: cover;*/
 }
+
+.parallax { 
+    /* The image used */
+    background-image: url("pleasantrace.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);
 	background:-webkit-linear-gradient(top, red 0%,fuchsia 100%);

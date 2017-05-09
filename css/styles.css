@@ -41,9 +41,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     height: 500px; 
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     background-size: cover;
 	 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter:grayscale(100%);

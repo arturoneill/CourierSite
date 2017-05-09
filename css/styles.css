@@ -51,6 +51,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	filter:grayscale(100%);
 }
 
+.parallax-pattern { 
+    /* The image used */
+    background-image: url("/images/backgroundpattern.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+	
+	z-index: -10;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+
 
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);

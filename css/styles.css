@@ -46,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     background-repeat: no-repeat;
     background-size: cover;
 }
-</style>
+
 
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);

@@ -28,9 +28,7 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 	
 	
    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+  background-image: url("/images/diagonalstripes.png")
 }
 
 .parallax { 

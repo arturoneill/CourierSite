@@ -35,7 +35,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 
 .parallax { 
     /* The image used */
-    background-image: url("images/pleasantrace.jpg");
+    background-image: url("/images/pleasantrace.jpg");
 
     /* Set a specific height */
     height: 500px; 
@@ -45,6 +45,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+	 -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter:grayscale(100%);
 }
 
 

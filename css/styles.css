@@ -48,6 +48,10 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 	filter:grayscale(100%);
 }
 
+.shadow-text{
+	
+	text-shadow: 1px 1px 0px #000;	
+}
 
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);

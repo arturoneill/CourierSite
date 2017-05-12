@@ -50,7 +50,7 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 
 .shadow-text{
 	
-	text-shadow: 1px 1px 0px #000;	
+	text-shadow: 2px 2px 0px #333;	
 }
 
 .gradient-text {

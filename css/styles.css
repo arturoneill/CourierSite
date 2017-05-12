@@ -48,6 +48,30 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 	filter:grayscale(100%);
 }
 
+.parallax-pattern { 
+    /* The image used */
+    background-image: url("/images/puppycatbannersmall.jpg");
+
+    /* Set a specific height */
+    height: 100%; 
+	
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color:white;
+}
+.parallax-pattern>a{
+	color:white;
+	}
+	
+	a.parallax-pattern {
+		color:white;
+	}
+
+
 .shadow-text{
 	
 	text-shadow: 2px 2px 0px #333;	
@@ -415,29 +439,7 @@ div>a:hover, div>a:focus, div>a:active {
 }
 	
 	
-.parallax-pattern { 
-    /* The image used */
-    background-image: url("/images/puppycatbannerthin.jpg");
 
-    /* Set a specific height */
-    height: 50%; 
-	width:50%;
-	
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	color:white;
-}
-.parallax-pattern>a{
-	color:white;
-	}
-	
-	a.parallax-pattern {
-		color:white;
-	}
 		
 
 section>ul {

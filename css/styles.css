@@ -48,9 +48,12 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 	filter:grayscale(100%);
 }
 
+a {
+	color:white;
+}
 .parallax-pattern { 
     /* The image used */
-    background-image: url("/images/puppycatbannersmall.jpg");
+    background-image: url("/images/puppycatbanner.jpg");
 
     /* Set a specific height */
     height: 100%; 

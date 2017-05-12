@@ -38,7 +38,6 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
     /* Set a specific height */
     height: 100%; 
 	
-	z-index: -10;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed !important;
@@ -419,12 +418,11 @@ div>a:hover, div>a:focus, div>a:active {
     /* Set a specific height */
     height: 100%; 
 	
-	z-index: -10;
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 

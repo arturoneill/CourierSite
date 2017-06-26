@@ -35,6 +35,19 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 #whoweare {
 	min-height: 175px;
 }
+
+#contact {
+	background-color:#75daff;
+	min-height:300px;
+	
+}
+
+#whatwedo {
+	background-color:#75daff;
+	min-height:400px;"
+}
+
+
 .parallax { 
     /* The image used */
     background-image: url("/images/NACCC.jpg");

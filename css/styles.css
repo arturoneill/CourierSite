@@ -32,20 +32,22 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
    
   /*background-image: url("/images/backgroundstripes.png")*/
 }
-#whoweare {
-	min-height: 175px;
-}
-
-#contact {
-	background-color:#75daff;
-	min-height:300px;
-	
-}
 
 #whatwedo {
 	background-color:#75daff;
 	min-height:400px;"
 }
+#whoweare {
+	min-height: 175px;
+}
+
+#footernav {
+	background-color:#75daff;
+	min-height:300px;
+	
+}
+
+
 
 .index-square {
 	max-width:175px;

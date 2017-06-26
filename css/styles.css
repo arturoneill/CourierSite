@@ -17,6 +17,8 @@ html{
 	
 }
 body{
+	
+	background-color: #464646;
 	/*background-color:#E9EBE4;*/
 	/*background: #e5e5e5; /* Old browsers */
 /*	
@@ -28,9 +30,11 @@ background: -moz-linear-gradient(top, #ebebe0 0%, #cccccc 100%); /* FF3.6-15 */
 	
 	
    
-  background-image: url("/images/backgroundstripes.png")
+  /*background-image: url("/images/backgroundstripes.png")*/
 }
-
+#whoweare {
+	min-height: 175px;
+}
 .parallax { 
     /* The image used */
     background-image: url("/images/NACCC.jpg");

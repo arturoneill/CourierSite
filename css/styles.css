@@ -102,7 +102,7 @@ a {
 	color:red;
 }
 
-.faq-set>a{
+a.faq-set{
 	color: blue;
 }
 

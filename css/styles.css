@@ -98,6 +98,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 }
 
 a {
+	font-weight:bold;
 	color:red;
 }
 .parallax-pattern { 

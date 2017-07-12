@@ -101,6 +101,12 @@ a {
 	font-weight:bold;
 	color:red;
 }
+
+.faq-set>a{
+	color: blue;
+}
+
+
 .parallax-pattern { 
     /* The image used */
     background-image: url("/images/puppycatbannersquare.jpg");

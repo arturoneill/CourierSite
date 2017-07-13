@@ -71,6 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 
 .bio {
 background-image: url("/images/zachsquare.png");
+	background-size:contain;
 }
 
 ul {

@@ -57,6 +57,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
     	
 }
 
+ul {
+	list-style:none;
+}
 
 #whatwedo {
 	background-color:#75daff;

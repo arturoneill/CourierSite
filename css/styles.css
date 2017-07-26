@@ -66,8 +66,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 }
 
 .big-text {
-	font-size:2em;
-	font-height:.75em;
+	font-size:1.5em;
+	line-height:.75em;
 }
 
 .FAQ-content-section {

@@ -140,6 +140,11 @@ a.faq-set{
 	color: darkblue;
 }
 
+a:hover, a:focus {
+	text-decoration: none;
+	color:	#7851A9;
+}
+
 
 .parallax-pattern { 
     /* The image used */

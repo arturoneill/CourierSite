@@ -92,15 +92,18 @@ ul {
 }
 
 #whatwedo {
+	padding-top:20px;
 	background-color:#c4c4c4;
 	min-height:400px;"
 }
 #whoweare {
+	padding-top:20px;
 	background-color:#424242;
 	min-height: 175px;
 }
 
 #contactus {
+	padding-top:20px;
 	background-color:#75daff;
 	min-height:200px;
 	

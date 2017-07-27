@@ -180,6 +180,11 @@ a:hover, a:focus {
 	color:white;
 }
 
+.blue-shadow-text{
+	text-shadow: 2px 2px 0px #75daff;
+	color:black;
+}
+
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);
 	background:-webkit-linear-gradient(top, red 0%,fuchsia 100%);

@@ -180,8 +180,8 @@ a:hover, a:focus {
 	color:white;
 }
 
-.red-shadow-text{
-	text-shadow: 1px 1px 0px red;
+.white-shadow-text{
+	text-shadow: 1px 1px 0px white;
 	color:black;
 }
 .blue-shadow-text{

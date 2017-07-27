@@ -181,7 +181,7 @@ a:hover, a:focus {
 }
 
 .white-shadow-text{
-	text-shadow: 1px 1px 0px white;
+	text-shadow: 1.5px 1.5px 0px white;
 	color:black;
 }
 .blue-shadow-text{

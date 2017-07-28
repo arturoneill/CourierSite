@@ -217,6 +217,15 @@ a:hover, a:focus {
 	color:black;
 }
 
+outline-shadow-text{
+	 text-shadow:
+   2px 2px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	color:#75daff;
+}
+
 .gradient-text {
 	background:-moz-linear-gradient(top, red 0%, fuchsia 100%);
 	background:-webkit-linear-gradient(top, red 0%,fuchsia 100%);

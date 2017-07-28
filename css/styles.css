@@ -347,7 +347,7 @@ h2 {
     margin-bottom: 20px;
     margin-top:0px;
     font-weight:800;
-     text-align:left;
+   
 }
 
 p>span {
@@ -864,6 +864,7 @@ section.circle-nav {
 
 #samedaydelivery {
 	font-size: 7vw;
+	text-align:center;
 }
 .blue-star {
 	font-size:3.5vw;

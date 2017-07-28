@@ -861,6 +861,13 @@ section.circle-nav {
 	
     	
 }
+
+#samedaydelivery {
+	font-size: 6vw;
+}
+.blue-star {
+	font-size:4w;
+}
 /*-----------------------EXTRA EXTRA SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 310px){
 	

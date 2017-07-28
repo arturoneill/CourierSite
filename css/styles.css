@@ -83,6 +83,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	font-size:1.6em;
 	line-height:1.2em;
 }
+span {
+	font-size:.8em;
+	text-decoration:none;
+}
 
 .FAQ-content-section {
 	 background-color: white;

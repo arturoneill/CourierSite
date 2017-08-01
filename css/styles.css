@@ -30,6 +30,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
   /*background-image: url("/images/backgroundstripes.png")*/
 }
 
+/* Modal stuffs  */
+
+.close {
+	font-size:40px;
+}
+
 
 .modal iframe {
 	width:100%;

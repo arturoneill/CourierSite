@@ -253,6 +253,11 @@ a:hover, a:focus {
 	color:black;
 }
 
+.red-shadow-text{
+		text-shadow: 1.5px 1.5px 0px #ff3232;
+	color:white;
+}
+
 .outline-shadow-text{
 	 text-shadow:
    -1.5px -1.5px 0 #000,  
@@ -369,6 +374,7 @@ panel .panel {
     font-size:32px;
     line-height:26px;
     color:black;
+		
 }
 #logo.navbar-brand {
 	padding: 5px 5px;

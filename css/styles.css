@@ -460,6 +460,7 @@ header{
 .navbar{
 	border-radius:0px;
 	margin-bottom:0px;
+	min-height:80px;
 }
 .navbar-default .navbar-brand {
     color: white;

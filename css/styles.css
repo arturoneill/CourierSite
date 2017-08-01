@@ -30,7 +30,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
   /*background-image: url("/images/backgroundstripes.png")*/
 }
 
-.row.vdivide [class*='col-']:not(:last-child):after {
+.vdivide [class*='col-']:not(:last-child):after {
   background: #e0e0e0;
   width: 1px;
   content: "";

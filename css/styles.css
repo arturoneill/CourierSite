@@ -743,7 +743,7 @@ section>ul {
     
 }
 	
-	}
+	
 .vdivide [class*='col-']:not(:last-child):after {
   background: #e0e0e0;
   width: 1px;
@@ -754,6 +754,7 @@ section>ul {
   bottom: 0;
   right: 0;
   min-height: 70px;
+}
 }
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){

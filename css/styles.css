@@ -792,7 +792,7 @@ section>ul {
 	
 .vdivide [class*='col-']:not(:last-child):after {
   background: #e0e0e0;
-  width: 4px;
+  width: 2px;
   content: "";
   display:block;
   position: absolute;

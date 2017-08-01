@@ -37,6 +37,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	min-height: 300px;
 }
 
+.modal-content {
+	background-color:none;
+	border:none;
+}
+
 .content-section {
     background-color: white;
 	padding-left:10px;

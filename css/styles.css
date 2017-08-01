@@ -367,6 +367,7 @@ panel .panel {
     font-weight: 800;
     text-transform:uppercase;
     font-size:32px;
+    line-height:26px;
     color:black;
 }
 
@@ -808,7 +809,7 @@ section>ul {
    /* font-family: 'Nunito', sans-serif;*/
     font-weight: 800;
     text-transform:uppercase;
-    font-size:28px;
+    font-size:24px;
     color:black;
 }
 	

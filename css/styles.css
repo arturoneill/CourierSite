@@ -30,17 +30,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
   /*background-image: url("/images/backgroundstripes.png")*/
 }
 
-.vdivide [class*='col-']:not(:last-child):after {
-  background: #e0e0e0;
-  width: 1px;
-  content: "";
-  display:block;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  min-height: 70px;
-}
+
 
 .content-section {
     background-color: white;
@@ -754,7 +744,17 @@ section>ul {
 }
 	
 	}
-
+.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
 	

@@ -370,6 +370,9 @@ panel .panel {
     line-height:26px;
     color:black;
 }
+#logo.navbar-brand {
+	padding: 5px 5px;
+}
 
 /*#background {
    background-image: url("../images/gainesvillemapbw.png");

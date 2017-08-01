@@ -883,17 +883,7 @@ section.circle-nav {
 }
 	
 	
-	.small-horizontal [class*='col-']:not(:last-child):after {
-  background: #e0e0e0;
-  width: 150px;
-  content: "";
-  display:block;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  height: 1px;
-}
+
 	
 }
 /*-----------------------EXTRA EXTRA SMALL SCREEN SIZES------------------------*/

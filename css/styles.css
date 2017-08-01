@@ -29,6 +29,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 
   background-image: url("/images/hushpuppydude.png");
 	  background-repeat:no-repeat;
+	background-position: 90px;
 }
 
 /* Modal stuffs  */

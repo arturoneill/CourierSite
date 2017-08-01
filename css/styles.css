@@ -37,6 +37,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	opacity: .8;
 }
 
+iframe {
+	border:0px;
+	
+}
+
 
 .modal iframe {
 	width:100%;

@@ -271,6 +271,11 @@ a:hover, a:focus {
 	color:black;
 }
 
+.blue-shadow-text-sm{
+	text-shadow: 1px 1px 0px #75daff;
+	color:black;
+}
+
 .red-shadow-text{
 		text-shadow: 1.5px 1.5px 0px #ff3232;
 	color:white;

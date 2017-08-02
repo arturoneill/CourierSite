@@ -33,6 +33,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 
 /* Modal stuffs  */
 
+button.modal-button{
+	background-color:transparent;
+	border:0px;
+	font-size:24px;
+}
+	
 .close {
 	font-size:40px;
 	opacity: .8;

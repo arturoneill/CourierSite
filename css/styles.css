@@ -284,11 +284,11 @@ a:hover, a:focus {
 .outline-shadow-text{
 	-webkit-text-stroke: 1.5px #000;
 	-moz-webkit-text-stroke: 1.5px #000;
-	 text-shadow:
+	/* text-shadow:
    -1.5px -1.5px 0 #000,  
     1.5px -1.5px 0 #000,
     -1.5px 1.5px 0 #000,
-     1.5px 1.5px 0 #000;
+     1.5px 1.5px 0 #000;*/
 	color:#75daff;
 }
 

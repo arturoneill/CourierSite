@@ -123,6 +123,17 @@ iframe {
 }
 
 
+.faq-button {
+	background-image:url("/images/puppycatfaq.png");
+	background-size:contain;
+	opacity:.4;
+}
+.faq-button {
+	background-image:url("/images/gainesvillemapbw.png");
+	background-size:contain;
+	opacity:.4;
+}
+
 .big-text {
 	font-size:1.6em;
 	line-height:1.2em;

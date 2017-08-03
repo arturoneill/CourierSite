@@ -166,10 +166,9 @@ ul {
 }
 
 #landingbanner {
-	
 background-color: lightgrey;
 background-image: url("/images/zachflowerscropped.png");
-background-size:100%;
+background-size:cover;
 opacity: 0.8;
 	
 }

@@ -166,7 +166,10 @@ ul {
 }
 
 #landingbanner {
-background-image: url("/images/zachflowerscropped.png");	
+background-image: url("/images/zachflowerscropped.png") no-repeat;
+background-size:100%;
+opacity: 0.8;
+	
 }
 
 #whatwedo {

@@ -31,6 +31,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', end
 	
 }
 
+h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height:1.2em;
+}
+
 /* Modal stuffs  */
 
 button.modal-button{

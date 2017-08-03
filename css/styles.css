@@ -165,6 +165,10 @@ ul {
 	list-style:none;
 }
 
+#landingbanner {
+background-image: url("/images/zachsflowerscropped.png");	
+}
+
 #whatwedo {
 	padding-top:20px;
 	/*background-color:#999;*/

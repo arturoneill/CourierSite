@@ -114,6 +114,19 @@ iframe {
 	margin-right: 10px;
 	margin-top:15px;
 }
+
+.border-content-section {
+    background-color: none;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-right: 10px;
+	margin-top:15px;
+	border-width:2px;
+	border-style: solid;
+	
+}
+
 .social-content-section {
     background-color: white;
 	padding-left:10px;

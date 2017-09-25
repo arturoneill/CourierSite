@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#service-form').bootstrapValidator({
+    $('#order-form').bootstrapValidator({
         //submitButtons: '#postForm',
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
         feedbackIcons: {

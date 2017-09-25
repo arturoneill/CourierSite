@@ -1,8 +1,9 @@
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,19 +13,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-    <title>Service Form</title>
+
+
+   
+  
+  
+  
+  <title>Order Form</title>
   <!-- bootstrap & fontawesome css -->
   <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
 
   <!-- BootstrapValidator CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
-   <!-- Other CSS -->
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,800" rel="stylesheet">
 
   <!-- jQuery and Bootstrap JS -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
@@ -47,17 +48,27 @@
       from { transform: scale(1) rotate(0deg);}
       to { transform: scale(1) rotate(360deg);}
   }
-     </style>
+  </style>
+  
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,800" rel="stylesheet">
+  
+</head>
 
-   
-  </head>
 <body>
+  
+
+
+  
 
     
-    
+     <div class="container"  id="background">
+      
 
       
-         <section class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <section class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
             
            
         <div class="content-section" >
@@ -92,17 +103,17 @@
              </div>
        
       </section>
-         
-      <section class="container-fluid">
         
+        
+        
+        
+      <section class="container-fluid">   
+      
   <form class="form-vertical" role="form" id="service-form" style="background:white;">
      
      
       <section class = "col-xs-12 col-sm-6 col-md-4 col-lg-4 text-left">
         <div class="content-section">
-          
-          <p><span>Submit a request right here!<br>
-            We’ll get right back to you to confirm.</span></p> 
    
      
   
@@ -134,22 +145,82 @@
       </div>
     </div>
     
-  
+    <div class="form-group">
+      <label class="control-label">Ready Time</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <select type="text" class="form-control" name="readyTime" placeholder="When do you need it?">
+          <optgroup >
+           <option value="when do you need it?" disabled selected>When do you need it?</option>
+          <option value="ASAP">ASAP</option>
+          <option value="8:00 am">8:00 am</option>
+            <option value="8:15 am">8:15 am</option>
+           <option value="8:30 am">8:30 am</option>
+            <option value="8:45 am">8:45 am</option>
+            <option value="9:00 am">9:00 am</option>
+            <option value="9:15 am">9:15 am</option>
+           <option value="9:30 am">9:30 am</option>
+            <option value="9:45 am">9:45 am</option>
+            <option value="10:00 a">10:00 am</option>
+            <option value="10:15 am">10:15 am</option>
+           <option value="10:30 am">10:30 am</option>
+            <option value="10:45 am">10:45 am</option>
+            <option value="11:00 am">11:00 am</option>
+            <option value="11:15 am">11:15 am</option>
+           <option value="11:30 am">11:30 am</option>
+            <option value="11:45 am">11:45 am</option>
+            <option value="12:00 pm">12:00 pm</option>
+            <option value="12:15 pm">12:15 pm</option>
+           <option value="12:30 pm">12:30 pm</option>
+            <option value="12:45 pm">12:45 pm</option>
+             <option value="1:00 pm">1:00 pm</option>
+            <option value="1:15 pm">1:15 pm</option>
+           <option value="1:30 pm">1:30 pm</option>
+            <option value="1:45 pm">1:45 pm</option>
+            <option value="2:00 pm">2:00 pm</option>
+            <option value="2:15 pm">2:15 pm</option>
+           <option value="2:30 pm">2:30 pm</option>
+            <option value="2:45 pm">2:45 pm</option>
+            <option value="3:00 pm">3:00 pm</option>
+            <option value="3:15 pm">3:15 pm</option>
+           <option value="3:30 pm">3:30 pm</option>
+            <option value="3:45 pm">3:45 pm</option>
+            <option value="4:00 pm">4:00 pm</option>
+            <option value="4:15 pm">4:15 pm</option>
+           <option value="4:30 pm">4:30 pm</option>
+            <option value="4:45 pm">4:45 pm</option>
+            <option value="5:00 pm">5:00 pm</option>
+            <option value="5:15 pm">5:15 pm</option>
+           <option value="5:30 pm">5:30 pm</option>
+            <option value="5:45 pm">5:45 pm</option>
+            <option value="6:00 pm">6:00 pm</option>
+            <option value="6:15 pm">6:15 pm</option>
+           <option value="6:30 pm">6:30 pm</option>
+            <option value="6:45 pm">6:45 pm</option>
+            <option value="7:00 pm">7:00 pm</option>
+          <option value="Today">Anytime Today</option>
+            <option value="NA">Not Applicable</option>
+          </optgroup>
+          </select>
+          <!--<input type="text" class="form-control" name="readyTime" placeholder="Ready Time"/>-->
+        </div>
+      </div>
+    </div>
+         
+         <div class="form-group">
+      <label class="control-label"> Pick-Up Location</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <input type="text" class="form-control" name="pickupName" placeholder="Business/Organization/Etc"/>
+        </div>
+      </div>
+    </div>
 
     <div class="form-group">
       <label class="control-label">Pick-Up Address</label>
       <div class="inputGroupContainer">
         <div class="input-group col-lg-10">
-          <textarea type="text" class="form-control" name="pickupAddress" placeholder="Pick-up location name and address" rows="2" style="resize: vertical;"></textarea>
-        </div>
-      </div>
-    </div>
-          
-             <div class="form-group">
-      <label class="control-label">Drop-Off Address</label>
-      <div class="inputGroupContainer">
-        <div class="input-group col-lg-10">
-          <textarea type="text" class="form-control" name="dropoffAddress" placeholder="Enter drop-off address here" rows="3" style="resize: vertical;"></textarea>
+          <textarea type="text" class="form-control" name="pickupAddress" placeholder="Pick-up Address" rows="2" style="resize: vertical;"></textarea>
         </div>
       </div>
     </div>
@@ -163,17 +234,23 @@
     
     
       
-
-
-       <div class="form-group">
-      <label class="control-label">What are we picking up?</label>
+   <!-- <div class="form-group">
+      <label class="control-label"> Drop-Off Name (optional)</label>
       <div class="inputGroupContainer">
         <div class="input-group col-lg-10">
-          <textarea type="text" class="form-control" name="orderContents" placeholder="Please detail your order" rows="2" style="resize: vertical;"></textarea>
+          <input type="text" class="form-control" name="dropoffName" placeholder="Drop-Off Name"/>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="form-group">
+      <label class="control-label">Drop-Off Address</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="dropoffAddress" placeholder="Enter drop-off address here" rows="3" style="resize: vertical;"></textarea>
         </div>
       </div>
     </div>
-    
 
   <div class="form-group">
       <label class="control-label">Level of Service</label>
@@ -184,7 +261,7 @@
            <option value="when do you need it?" disabled selected>How fast?</option>
           <option value="rush">rush</option>
           <option value="standard">standard</option>
-          <option value="today">later (specify in notes)</option>
+          <option value="today">today</option>
           </optgroup>
           </select>
           <!--<input type="text" class="form-control" name="serviceLevel" placeholder="Level of Service" style="resize: vertical;"/>-->
@@ -192,18 +269,35 @@
       </div>
     </div>
     
-
+      <div class="form-group">
+      <label class="control-label">What are we picking up?</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="orderContents" placeholder="Please detail your order" rows="2" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+    
+    <!--<div class="form-group">
+      <label class="col-lg-6 control-label">Do you need payment upfront?</label>
+      <div class="col-lg-6 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="payUpfront" placeholder="yes or no"/>
+        </div>
+      </div>
+    </div>
+-->
     
     <div class="form-group">
       <label class="control-label">How do you want to pay?</label>
       <div class="inputGroupContainer">
         <div class="input-group col-lg-10">
           <!--<input type="text" class="form-control" name="payMethod" placeholder="Payment Method"/>-->
-          <select type="text" class="form-control" name="payMethod" placeholder="Cash or card?">
+          <select type="text" class="form-control" name="payMethod" placeholder="Payment method">
           <optgroup >
            <option value="Payment Method?" disabled selected>Payment Method?</option>
           <option value="cash">cash</option>
-          <option value="card">credit card (square)</option>
+          <option value="card">creditcard (square)</option>
           <option value="online">paypal/venmo</option>
           </optgroup>
           </select>
@@ -230,29 +324,23 @@
       </section>
     
         </form>
-  </section>
-      
-  
-     
+        </section>
         
+       
+       
+      </div>
       
       
+      
+    
+   
  
-      
-      
-   
-  
-
-   
-
-  
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-             
-
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+ 
 </body>
-  
 
+<footer>
+<!--<script src="js/validation-functions.js"></script>-->
+   <p style = "padding-top:15px;" class="text-center">© Hushpuppy Courier 2017</p>
+</footer>
+  
 </html>

@@ -913,7 +913,7 @@ section.circle-nav {
     }
 
 	/*-----------------------bigger than SMALL SCREEN SIZES------------------------*/
-@media screen and (min-width: 767px){
+@media screen and (modal-button: 400px){
 	.button-modal {
 		text-align:center;
 	}

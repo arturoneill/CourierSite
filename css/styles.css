@@ -914,7 +914,7 @@ section.circle-nav {
 
 	/*-----------------------bigger than SMALL SCREEN SIZES------------------------*/
 @media screen and (modal-button: 400px){
-	.button-modal {
+	.button-div {
 		text-align:center;
 	}
 	

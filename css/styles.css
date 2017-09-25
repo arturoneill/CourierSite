@@ -912,6 +912,16 @@ section.circle-nav {
 
     }
 
+	/*-----------------------bigger than SMALL SCREEN SIZES------------------------*/
+@media screen and (min-width: 767px){
+	.button-modal {
+		text-align:center;
+	}
+	
+	
+	
+	
+	}
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {

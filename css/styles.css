@@ -687,6 +687,10 @@ div>a:hover, div>a:focus, div>a:active {
 	padding-right:10px;
 	
 }
+	
+	.logo {
+	width:70%;
+	}
 
 .button-div {	
  text-align: center;	
@@ -890,6 +894,10 @@ section>ul {
     font-size:24px;
     color:black;
 }
+	
+.logo {
+	width:80%;
+	}
 	
 
 

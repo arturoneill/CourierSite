@@ -687,8 +687,10 @@ div>a:hover, div>a:focus, div>a:active {
 	padding-right:10px;
 	
 }
-	
-	
+
+.button-div {	
+ text-align: center;	
+	}
 
 		
 
@@ -912,16 +914,7 @@ section.circle-nav {
 
     }
 
-	/*-----------------------bigger than SMALL SCREEN SIZES------------------------*/
-@media screen and (modal-button: 400px){
-	.button-div {
-		text-align:center;
-	}
-	
-	
-	
-	
-	}
+
 	
 /*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
 	 .circle:nth-child(1) {

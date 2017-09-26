@@ -56,8 +56,12 @@ button.modal-button{
 	font-size:24px;
 	font-weight:800;
 }
-button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
+/*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
     background-color: #ff3b9d;
+}*/
+
+.button-div:hover, .button-div:focus, .button-div:active {
+	background-color: #ff3b9d;
 }
 	
 .close {

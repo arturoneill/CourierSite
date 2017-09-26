@@ -60,7 +60,7 @@ button.modal-button{
     background-color: #ff3b9d;
 }*/
 
-.button-div:hover, .button-div:focus, .button-div:active {
+.button-div:hover, .button-div:focus {
 	background-color: #ff3b9d;
 }
 	

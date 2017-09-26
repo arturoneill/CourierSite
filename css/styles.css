@@ -56,6 +56,9 @@ button.modal-button{
 	font-size:24px;
 	font-weight:800;
 }
+button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
+    background-color: red;
+}
 	
 .close {
 	font-size:40px;

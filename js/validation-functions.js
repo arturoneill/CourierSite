@@ -161,6 +161,7 @@ $(document).ready(function() {
         
        
         
+        
         var redirectUrl = 'success-page.html';
         
         // show the loading 

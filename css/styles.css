@@ -68,6 +68,21 @@ button.modal-button{
 	background-color: #ff3b9d;
 }
 	
+
+form.modal-button{
+	background-color:transparent;
+	border:0px;
+	font-size:24px;
+	font-weight:800;
+}
+/*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
+    background-color: #ff3b9d;
+}*/
+
+.button-div:hover, .button-div:focus {
+	background-color: #ff3b9d;
+}
+
 .close {
 	font-size:40px;
 	opacity: .8;

@@ -75,13 +75,13 @@ form.modal-button{
 	font-size:24px;
 	font-weight:800;
 }
-/*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
-    background-color: #ff3b9d;
-}*/
 
-.button-div:hover, .button-div:focus {
-	background-color: #ff3b9d;
+form>input{
+	background-color:transparent;
+	border:0px;
 }
+	
+
 
 .close {
 	font-size:40px;

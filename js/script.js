@@ -8,6 +8,7 @@ $('#MAPModal').on('shown.bs.modal', (function() {
       mapIsAdded = true;
       
       
+      
     }    
   };
 })());
